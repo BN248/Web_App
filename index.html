@@ -1,0 +1,20 @@
+<!DOCTYPE html>    
+<html lang="en">    
+    
+<head><title>Lincense Agents</title></head>
+    <body>
+    <h1>Sports Agents</h1>
+
+        {% for row in rows %}
+        <p>Agents: 
+        <b>{{row["AgentsID"]}}</b> | 
+        {{row["Business_name"]}} | 
+        {{row["Phone_Number"]}} | 
+        {{row['City']}}	| 
+        {{row["Country"]}} |
+         </p>
+        {% endfor %}
+        
+
+        
+</body></html>
